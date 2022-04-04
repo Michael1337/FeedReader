@@ -1,0 +1,34 @@
+.breakWord {
+    word-break: break-word;
+}
+
+.breakAll {
+    word-break: break-all;
+}
+
+.twitter-tweet.twitter-tweet-rendered {
+    max-width: 279px !important;
+}
+@media (min-width: 768px) {
+    .twitter-tweet.twitter-tweet-rendered {
+        max-width: 100% !important;
+    }
+}
+
+.shuffleImg {
+    height: 46px;
+    cursor: pointer;
+}
+
+.feedflare {
+    display: none;
+}
+
+img {
+    max-width: 100%;
+}
+mark{
+    background: green;
+    color: black;
+    padding: 0;
+}

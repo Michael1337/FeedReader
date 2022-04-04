@@ -1,0 +1,1 @@
+0 * * * * /var/www/html/putcontent.php >> /var/log/cron/cron.log
