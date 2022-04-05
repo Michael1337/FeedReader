@@ -25,8 +25,5 @@ RUN chmod 0644 /etc/cron.d/cron
 # Apply cron job
 RUN crontab /etc/cron.d/cron
 
-# Create the log file to be able to run tail
-RUN mkdir -p /var/log/cron
-
 # Add a command to base-image entrypont scritp
 RUN sed -i 's/^exec /service cron start\n\nexec /' /usr/local/bin/apache2-foreground

@@ -1,1 +1,1 @@
-0 * * * * /var/www/html/putcontent.php >> /var/log/cron/cron.log
+0 * * * * root /usr/local/bin/php /var/www/html/putcontent.php
